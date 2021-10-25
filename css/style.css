@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:serif;
+}
+header{
+    background-image: url(../images/rest4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+
+    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(58, 54, 54);
+    flex-wrap: wrap;
+    height: 75px;
+}
+.logo{
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+.logo span{
+
+    color: white;
+    background-color: orange;
+    border-radius: 3px;
+}
+nav .logo{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3em;
+}
+nav ul li{
+
+    margin: 0px 15px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 1em;
+
+    color: white;
+}
+nav li a:hover{
+    color: peru;
+}
+header .content{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .content button{
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: rgb(212, 170, 30);
+    font-size: 1.25em;
+}
+header .content button:hover{
+    background-color: rgb(172, 157, 108);
+    cursor: pointer;
+    
+}
+header .content h1{
+ color: rgb(211, 164, 10); 
+ font-size:3em ;
+ font-weight: bolder;
+ 
+}
+header .content h3{
+    color: rgb(12, 11, 11);
+    font-size:2.25em ;
+    font-weight: 600px;
+    font-family: initial;
+}
+header .content p{
+    color: black;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap; 
+    margin-left: 0px;
+
+  
+}
+.middle .video{
+   margin: 20px 0px;
+   display: flex;
+  /* flex-direction: column;  */
+   justify-content: space-around;
+  align-items: center; 
+   border-radius: 15px;
+   margin-top: 100px;
+   width: 350px;
+   height: 200px;
+   flex-wrap: wrap;
+   margin-left: 200px;
+    
+
+
+}
+.img{}
+   
+.img .dish{
+    display: flex;
+    /* flex-direction: column; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+footer{
+    background-color:rgb(58, 54, 54); 
+    display: flex;
+    color: lavender;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+footer ul{
+    list-style-type: none;
+    
+}
+footer ul a{
+    text-decoration: none;
+    color: lavender;
+    font-size: 1.25em;
+    margin-left: 20px;}
+    footer .right h3{
+        color: rgb(211, 164, 10);
+        font-size: 2em;
+    }
+    footer .right h2{
+        color: rgb(211, 164, 10);
+    }
+    footer .left h3{
+        color: rgb(211, 164, 10);
+        font-size: 2.25em;
+    }
+    footer .left h4{
+        color: white;
+        font-size: 1.25em;
+        flex-direction: column;
+     
+    }
+
+    footer .left p{
+
+        flex-direction: column;
+    }
+    .logo1{
+        color: rgb(0, 0, 0);
+        font-size: 2em;
+        font-weight: 600;
+        margin-left: 800px;
+        margin-top: 20px;
+    }
+    .logo1 span{
+    
+        color: rgb(7, 6, 6);
+        background-color: orange;
+        border-radius: 3px;
+    }
+     .container{
+        display: flex;
+        width: 100%;
+        height: h;
+    }
+    
+    .container .left{
+        display: flex;
+        color: rgb(0, 0, 0);
+    }
+    .right img{
+      
+        display: flex;
+
+
+    }
+    
+    .frm{
+        display: flex;
+        flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    
+    }
+    .frm input{
+        width: 20%;
+        height: 40px;
+        margin: 15px 0px;
+        border: 2px solid black;
+    }
+    .frm textarea{
+        width: 20%;
+        height: 100px;
+        margin: 15px 0px;
+        border: 2px solid black;}
+        .frm button{
+            width: 200px;
+            margin: 15px 0px;
+            background-color: rgb(7, 6, 6);
+            color: silver;
+            height: 40px;
+            border-radius: 20px;
+        }
+
+
+        table{
+            width:600px;
+            border: 2px solid rgb(230, 230, 230);
+           background-color: rgb(243, 243, 243);
+           margin-top: 150px;
+            padding: 10px;
+            margin-left: 45px;
+            border-radius: 10px;
+            background: white(255, 255, 255, 0.5);
+            margin-left: 700px;
+            
+            
+            
+          
+        }
+        button{
+            width:20%;
+            height:35px;
+            margin-top:20px;
+            margin-bottom: 10px;
+            background-color: rgb(7, 7, 7);
+            border-radius: 10px;
+            opacity: 1;
+            color: rgb(253, 251, 251);
+        }
+        button:hover{
+            background-color: darkgreen;
+        }
+        input{
+            width:100%;
+            height:30px;
+            margin-top:20px;
+            color: darkgoldenrod;
+            opacity: 1;
+
+            font-size: 1.25em;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        textarea{
+            width: 100%;
+            height: 150px;
+            margin-top: 20px;
+            font-size: 1.25em;
+        }
+    
+     textarea input{
+         font-size: 2em;
+     }
+     button :hover{
+         background-color: darkgoldenrod;
+     }
+
+
